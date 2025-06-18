@@ -1,6 +1,6 @@
 <script lang="ts">
 export default {
-  inheritfalse,
+  inheritAttrs: false,
 };
 
 export interface TableProps extends /* @vue-ignore */ TableHTMLAttributes {
