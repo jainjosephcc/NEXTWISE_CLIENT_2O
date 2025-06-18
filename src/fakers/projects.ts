@@ -2,7 +2,7 @@ import _ from "lodash";
 import dayjs from "dayjs";
 import users, { type User } from "./users";
 
-export interface Project {
+interface Project {
   projectName: string;
   projectManager: User;
   creativeDirector: User;

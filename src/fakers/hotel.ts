@@ -1,14 +1,14 @@
 import _ from "lodash";
 import { Icon } from "@/components/Base/Lucide";
 
-export interface PerformanceInsight {
+interface PerformanceInsight {
   title: string;
   value: string;
   percentageChange: number;
   description: string;
 }
 
-export interface ActivityStream {
+interface ActivityStream {
   icon: Icon;
   roomNumber: string;
   roomType: string;

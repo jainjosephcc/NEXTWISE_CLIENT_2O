@@ -1,7 +1,7 @@
 import _ from "lodash";
 import users, { type User } from "./users";
 
-export interface ProjectDetail {
+interface ProjectDetail {
   title: string;
   link: string;
   contributors: Array<User>;

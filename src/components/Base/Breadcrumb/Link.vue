@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { type RouterLinkProps } from "vue-router";
 import { computed, type LiHTMLAttributes, inject } from "vue";
-import { type ProvideBeradcrumb } from "./Breadcrumb.vue";
+import { type ProvideBeradcrumb } frreadcrumb.vue";
 
 export interface LinkProps extends /* @vue-ignore */ LiHTMLAttributes {
   to?: RouterLinkProps["to"];

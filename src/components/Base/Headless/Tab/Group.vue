@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { TabGroup as HeadlessTabGroup } from "@headlessui/vue";
+import { TabGroup as HeadlessTabGroup } feadlessui/vue";
 
 export interface GroupProps
   extends /* @vue-ignore */ ExtractProps<typeof HeadlessTabGroup> {}

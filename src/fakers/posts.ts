@@ -3,7 +3,7 @@ import dayjs from "dayjs";
 import categories, { type Category } from "./categories";
 import users, { type User } from "./users";
 
-export interface Post {
+interface Post {
   title: string;
   content: string;
   date: string;

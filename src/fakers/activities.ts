@@ -7,7 +7,7 @@ type UploadedFile = {
   fileType: string;
 };
 
-export interface Activity {
+interface Activity {
   date: string;
   activity: string;
   activityDetails?: string;

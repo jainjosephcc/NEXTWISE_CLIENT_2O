@@ -1,7 +1,7 @@
 import _ from "lodash";
 import browsers, { Browser } from "./browsers";
 
-export interface RecentDevice {
+interface RecentDevice {
   browser: Browser;
   device: string;
   location: string;
