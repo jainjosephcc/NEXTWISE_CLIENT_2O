@@ -1,0 +1,105 @@
+html, body, #app {
+  font-family: "Anek Devanagari", sans-serif;
+}
+html {
+  body {
+    letter-spacing: theme("letterSpacing.wide");
+    font-size: theme("fontSize.sm");
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: theme("colors.slate.600");
+    line-height: theme("lineHeight.5");
+  }
+  &.dark body {
+    color: theme("colors.slate.100");
+    .text-slate-500 {
+      color: theme("colors.slate.400");
+    }
+    *,
+    ::before,
+    ::after {
+      border-color: theme("colors.white" / 10%);
+    }
+  }
+  .common-btn-item.cbi-fill {
+    background: linear-gradient(90deg, #f1b926, #d93d18);    /* Gradient background */
+    color: #fff;                                             /* White text */
+    font-weight: 600;                                        /* font-semibold */
+    border-radius: .6rem;                                     /* rounded-xl = 16px = 1rem */
+    padding-left: 1.5rem;                                    /* px-6 */
+    padding-right: 1.5rem;
+    padding-top: 0.5rem;                                     /* py-2 */
+    padding-bottom: 0.5rem;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1),              /* shadow-md */
+    0 2px 4px -2px rgba(0,0,0,0.1);
+    border: 1px solid #a67c2d;                               /* border, border-[#a67c2d] */
+    display: flex;                                           /* flex */
+    align-items: center;                                     /* items-center */
+    justify-content: center;                                 /* justify-center */
+    transition:
+            filter 0.3s,
+            transform 0.3s,
+            box-shadow 0.3s;
+    /* You may add other shared .common-btn-item styles here if needed */
+  }
+
+  .common-btn-item.cbi-fill:hover {
+    filter: brightness(1.10);         /* hover:brightness-110 */
+    transform: scale(1.05);           /* hover:scale-105 */
+    /* No change to gradient on hover, but you can adjust if you want */
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .common-btn-item.cbi-fill {
+      color: #000;   /* dark:text-black */
+    }
+  }
+
+  .common-tabs-bx.ctb-style-2.ctb-s2-big .ctb-item {
+    background: var(--black-200);
+    color: var(--celeste);
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0;
+    padding: 0 16px;
+    text-align: center;
+  }
+
+  .common-tabs-bx.ctb-style-2 .ctb-item {
+    border: 1px solid #0000;
+    border-radius: 50px;
+    font-size: 14px;
+    margin: 0 5px;
+    overflow: hidden;
+    padding: 6px 10px;
+    z-index: 1;
+  }
+  .common-tabs-bx .ctb-item {
+    color: var(--celeste-600);
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 15px;
+    position: relative;
+    transition: all .3s ease-in-out;
+  }
+  .common-tabs-bx .ctb-item:hover {
+    background-color: rgba(0, 125, 255, 0.1); /* soft blue tint */
+    color: var(--celeste);
+  }
+
+  .common-tabs-bx.ctb-style-2.ctb-s2-big .ctb-item:hover {
+    background: rgba(0, 125, 255, 0.2); /* darker overlay */
+    color: var(--celeste);
+  }
+
+  /* Add to your main.css, app.css, or a global stylesheet */
+  .bg-gradient-dark {
+    background: linear-gradient(137.45deg, #24262d,#0e0f12);
+  }
+
+
+
+}
