@@ -2,7 +2,7 @@
 import "@/assets/css/vendors/ckeditor.css";
 import DocumentEditor from "@ckeditor/ckeditor5-build-decoupled-document";
 import { ref, onMounted, inject } from "vue";
-import { type CkeditorElement, init } from "./ckeditor";
+import { type CkeditorElement, inim "./ckeditor";
 
 export type ProvideDocumentEditor = (el: CkeditorElement) => void;
 

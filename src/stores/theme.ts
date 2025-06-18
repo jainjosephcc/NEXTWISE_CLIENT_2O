@@ -1,15 +1,15 @@
 import { defineStore } from "pinia";
-import Hurricane from "@/themes/Hurricane";
-import Ravage from "@/themes/Ravage";
-import Echo from "@/themes/Echo";
-import Hook from "@/themes/Hook";
-import Razor from "@/themes/Razor";
-import Havoc from "@/themes/Havoc";
-import Dagger from "@/themes/Dagger";
-import Shuriken from "@/themes/Shuriken";
-import Raze from "@/themes/Raze";
-import Exort from "@/themes/Exort";
-import Viper from "@/themes/Viper";
+import Hurricane from "@/themes/Hurricane/index.ts";
+import Ravage from "@/themes/Ravage/index.ts";
+import Echo from "@/themes/Echo/index.ts";
+import Hook from "@/themes/Hook/index.ts";
+import Razor from "@/themes/Razor/index.ts";
+import Havoc from "@/themes/Havoc/index.ts";
+import Dagger from "@/themes/Dagger/index.ts";
+import Shuriken from "@/themes/Shuriken/index.ts";
+import Raze from "@/themes/Raze/index.ts";
+import Exort from "@/themes/Exort/index.ts";
+import Viper from "@/themes/Viper/index.ts";
 
 export const themes = [
   {
