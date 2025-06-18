@@ -2,8 +2,8 @@
 import { Slideover } from "@/components/Base/Headless";
 import Button from "@/components/Base/Button";
 import Lucide from "@/components/Base/Lucide";
-import activities from "@/fakers/activities";
-import users from "@/fakers/users";
+import activities from "@/fakers/activities.ts";
+import users from "@/fakers/users.ts";
 import _ from "lodash";
 
 interface MainProps {
