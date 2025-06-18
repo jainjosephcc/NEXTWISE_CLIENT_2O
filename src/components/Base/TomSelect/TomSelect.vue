@@ -27,7 +27,7 @@ export interface TomSelectProps extends /* @vue-ignore */ SelectHTMLAttributes {
 
 export interface TomSelectEmit {
   (e: "update:modelValue", value: string | string[]): void;
-  (e: "optionAdd", value: string | number): void;
+  (e: "optionAdd", value: strumber): void;
 }
 
 export type ProvideTomSelect = (el: TomSelectElement) => void;

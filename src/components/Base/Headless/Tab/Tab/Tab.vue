@@ -1,3 +1,9 @@
+<script lang="ts">
+export default {
+  inheritAttrs: false,
+};
+</script>
+
 <script setup lang="ts">
 import { inject } from "vue";
 import { Tab as HeadlessTab } from "@headlessui/vue";

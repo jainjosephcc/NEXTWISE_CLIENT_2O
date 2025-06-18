@@ -1,6 +1,6 @@
 import _ from "lodash";
 
-export interface Language {
+interface Language {
   name: string;
   code: string;
 }

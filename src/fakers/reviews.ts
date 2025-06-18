@@ -3,7 +3,7 @@ import products, { type Product } from "./products";
 import users, { type User } from "./users";
 import dayjs from "dayjs";
 
-export interface Review {
+interface Review {
   id: number;
   product: Product;
   user: User;

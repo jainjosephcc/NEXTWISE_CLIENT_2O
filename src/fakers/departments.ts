@@ -1,7 +1,7 @@
 import _ from "lodash";
 import countries, { type Country } from "./countries";
 
-export interface Department {
+interface Department {
   id: number;
   name: string;
   location: Country;

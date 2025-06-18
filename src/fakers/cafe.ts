@@ -2,7 +2,7 @@ import _ from "lodash";
 import dayjs from "dayjs";
 import { formatCurrency } from "@/utils/helper";
 
-export interface CafeSales {
+interface CafeSales {
   date: string;
   totalSales: string;
   menuItemsSold: string;
