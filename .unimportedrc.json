@@ -1,0 +1,19 @@
+{
+  "ignorePatterns": [
+    "src/main.ts",
+    "src/env.d.ts",
+    "vite.config.ts",
+    "vite.config.js",
+    "tsconfig.json",
+    "package.json",
+    "index.html",
+    "public/**/*",
+    "src/App.vue",
+    "src/router/index.ts",
+    "src/store/index.ts",
+    "src/assets/**/*",
+    "src/types/**/*",
+    "postcss.config.js",
+    "tailwind.config.js"
+  ]
+}
