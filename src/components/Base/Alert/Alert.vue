@@ -24,7 +24,7 @@ type Variant =
   | "soft-warning"
   | "soft-pending"
   | "soft-danger"
-  | "soft-dark";
+ft-dark";
 
 export interface AlertProps extends /* @vue-ignore */ HTMLAttributes {
   as?: string | object;

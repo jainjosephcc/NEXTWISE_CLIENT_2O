@@ -1,6 +1,6 @@
 import _ from "lodash";
 
-export interface Timezone {
+interface Timezone {
   name: string;
   offset: string;
 }

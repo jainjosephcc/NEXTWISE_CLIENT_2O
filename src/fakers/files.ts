@@ -1,6 +1,6 @@
 import _ from "lodash";
 
-export interface File {
+interface File {
   fileName: string;
   size: string;
   type:

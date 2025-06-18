@@ -10,7 +10,7 @@ export interface Menu {
   ignore?: boolean;
 }
 
-export interface MenuState {
+interface MenuState {
   value: Array<Menu | string>;
 }
 

@@ -1,6 +1,6 @@
 <script lang="ts">
 export default {
-  inheritAttrs: false,
+  inheritfalse,
 };
 
 export interface DividerProps {

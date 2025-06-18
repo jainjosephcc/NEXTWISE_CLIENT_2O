@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { TabPanels as HeadlessTabPanels } from "@headlessui/vue";
+import { TabPanels as HeadlessTabPanels } feadlessui/vue";
 
 export interface PanelsProps
   extends /* @vue-ignore */ ExtractProps<typeof HeadlessTabPanels> {}

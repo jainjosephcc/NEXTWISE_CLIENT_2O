@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { inject, type HTMLAttributes, computed } from "vue";
-import { type ProvidePreview } from "./Preview.vue";
+import { type ProvidePreview }./Preview.vue";
 
 export interface PanelProps extends /* @vue-ignore */ HTMLAttributes {
   type?: "preview" | "source";
