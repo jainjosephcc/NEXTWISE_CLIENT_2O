@@ -2,7 +2,7 @@
 import "@/assets/css/vendors/ckeditor.css";
 import BalloonEditor from "@ckeditor/ckeditor5-build-balloon";
 import { ref, onMounted, inject } from "vue";
-import { type CkeditorElement, inim "./ckeditor";
+import { type CkeditorElement, init } from "./ckeditor";
 
 export type ProvideBalloonEditor = (el: CkeditorElement) => void;
 

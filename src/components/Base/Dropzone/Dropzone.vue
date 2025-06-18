@@ -2,7 +2,7 @@
 import "@/assets/css/vendors/dropzone.css";
 import { type HTMLAttributes, ref, inject, onMounted } from "vue";
 import DropzoneJs, { type DropzoneOptions } from "dropzone";
-import { inim "./dropzone";
+import { init } from "./dropzone";
 
 export type ProvideDropzone = (el: DropzoneElement) => void;
 

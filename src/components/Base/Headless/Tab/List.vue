@@ -3,7 +3,7 @@ export default {
   inheritAttrs: false,
 };
 
-type Variant = "tabs" | "pills" | "boxed-tabsnk-tabs";
+type Variant = "tabs" | "pills" | "boxed-tabs" | "link-tabs";
 
 export interface ListProps
   extends /* @vue-ignore */ ExtractProps<typeof HeadlessTabList> {

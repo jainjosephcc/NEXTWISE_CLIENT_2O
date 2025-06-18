@@ -4,14 +4,14 @@ export interface CkeditorElement extends HTMLDivElement {
   CKEditor: any;
 }
 
-type CkeditorProps = {
+export type CkeditorProps = {
   modelValue: string;
   config?: any;
   disabled?: boolean;
   refKey?: string;
 };
 
-type CkeditorEmit = {
+export type CkeditorEmit = {
   (e: "update:modelValue", value: string): void;
   (e: "focus", value: string, editor: any): void;
   (e: "blur", value: string, editor: any): void;
@@ -81,4 +81,4 @@ const updateData = (
   }
 };
 
-export { init,  };
+export { init, updateData };

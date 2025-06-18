@@ -21,7 +21,8 @@ export interface LitepickerEmit {
 export interface LitepickerProps extends /* @vue-ignore */ InputHTMLAttributes {
   options: {
     format?: string | undefined;
-  } & LitepickerC  modelValue: string;
+  } & LitepickerConfig;
+  modelValue: string;
   refKey?: string;
 }
 

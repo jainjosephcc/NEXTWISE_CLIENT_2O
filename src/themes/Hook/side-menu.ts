@@ -96,4 +96,4 @@ const leave = (el: Element) => {
   slideUp(el as HTMLElement, 300);
 };
 
-export {   enter, leave, forceActiveMenu };
+export { nestedMenu, linkTo, enter, leave, forceActiveMenu };

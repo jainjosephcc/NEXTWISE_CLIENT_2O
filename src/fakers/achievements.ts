@@ -2,7 +2,7 @@ import _ from "lodash";
 import users, { type User } from "./users";
 import events, { type Event } from "./events";
 
-interface Achievement {
+export interface Achievement {
   id: string;
   title: string;
   description: string;

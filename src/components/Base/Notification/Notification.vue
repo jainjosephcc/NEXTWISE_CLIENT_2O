@@ -11,7 +11,8 @@ export interface NotificationElement extends HTMLDivElement {
 }
 
 export interface NotificationProps extends /* @vue-ignore */ HTMLAttributes {
-  options?: OptionsKey?: string;
+  options?: Options;
+  refKey?: string;
 }
 
 export type ProvideNotification = (el: NotificationElement) => void;

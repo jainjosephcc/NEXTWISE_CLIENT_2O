@@ -200,15 +200,15 @@ const slideDown = (
 };
 
 export {
-  
-  
-  
-  
+  cutText,
+  formatDate,
+  capitalizeFirstLetter,
+  onlyNumber,
   formatCurrency,
-  
-  
-  
-  
+  timeAgo,
+  diffTimeByNow,
+  isset,
+  toRaw,
   randomNumbers,
   toRGB,
   stringToHTML,

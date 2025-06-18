@@ -8,7 +8,7 @@ export default {
 import ChartJs, { type ChartConfiguration } from "chart.js/auto";
 import { type CanvasHTMLAttributes, ref, onMounted, inject, watch } from "vue";
 
-export interface ChartElement eHTMLCanvasElement {
+export interface ChartElement extends HTMLCanvasElement {
   instance: ChartJs;
 }
 

@@ -3,7 +3,7 @@ export default {
   inheritAttrs: false,
 };
 
-type Size = "sm" | "md" | "xl";
+type Size = "sm" | "md" | "lg" | "xl";
 
 export interface SlideoverProps
   extends /* @vue-ignore */ ExtractProps<typeof HeadlessDialog> {
