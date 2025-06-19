@@ -9,7 +9,7 @@ import {
 import { type HTMLAttributes, ref, onMounted, inject } from "vue";
 
 export interface TinySliderElement extends HTMLDivElement {
-  tns:iderInstance;
+  tns: TinySliderInstance;
 }
 
 export type ProvideTinySlider = (el: TinySliderElement) => void;

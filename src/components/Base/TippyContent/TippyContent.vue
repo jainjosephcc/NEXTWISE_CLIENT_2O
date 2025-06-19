@@ -6,7 +6,7 @@ import tippy, {
   roundArrow,
   animateFill as animateFillPlugin,
 } from "tippy.js";
-import { ref, onMountedt } from "vue";
+import { ref, onMounted, inject } from "vue";
 
 export type ProvideTippy = (el: PopperElement) => void;
 

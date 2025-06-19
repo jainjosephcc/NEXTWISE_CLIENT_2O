@@ -16,20 +16,20 @@ export function formatCurrencyWithSymbol(value) {
   
 
   // Function to format datetime as "28 Apr 2024, 10:10 PM"
-  function formatFullDateTime(dateTimeStr) {
+  export function formatFullDateTime(dateTimeStr) {
   const date = new Date(dateTimeStr);
   const options = { day: '2-digit', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit', hour12: true };
   return new Intl.DateTimeFormat('en-US', options).format(date);
 }
 
 // Function to format time as "10:10 PM"
-function formatTime(dateTimeStr) {
+export function formatTime(dateTimeStr) {
   const date = new Date(dateTimeStr);
   const options = { hour: '2-digit', minute: '2-digit', hour12: true };
   return new Intl.DateTimeFormat('en-US', options).format(date);
 }
 
-function formatLargeNumber(value) {
+export function formatLargeNumber(value) {
   if (value === null || value === undefined) {
     return '$ -';
   }
@@ -46,7 +46,7 @@ function formatLargeNumber(value) {
   return `$ ${number.toFixed(2)}`;
 }
 
-function formatToTwoDecimalPlaces(value) {
+export function formatToTwoDecimalPlaces(value) {
     if (value === null || value === undefined) {
         return '-';
     }

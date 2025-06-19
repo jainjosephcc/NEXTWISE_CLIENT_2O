@@ -3,7 +3,7 @@ export default {
   inheritAttrs: false,
 };
 
-type Size = "sm" | "md" | "xl";
+type Size = "sm" | "md" | "lg" | "xl";
 
 export interface DialogProps
   extends /* @vue-ignore */ ExtractProps<typeof HeadlessDialog> {

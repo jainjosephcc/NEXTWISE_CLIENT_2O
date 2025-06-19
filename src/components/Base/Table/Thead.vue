@@ -1,6 +1,6 @@
 <script lang="ts">
 export default {
-  inheritfalse,
+  inheritAttrs: false,
 };
 
 export interface TheadProps extends /* @vue-ignore */ HTMLAttributes {

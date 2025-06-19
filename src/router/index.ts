@@ -121,83 +121,32 @@ const router = createRouter({
           name: "live-account-info-account",
           component: () => import("../pages/client/LiveAccountDetails.vue"),
           meta: { breadcrumb: 'Live Account Details' },
-        },
-        {
-          path: "/dashboard-overview-2",
-          name: "dashboard-overview-2",
-          component: () => import("../pages/DashboardOverview2.vue"),
-        },
-        {
-          path: "/dashboard-overview-3",
-          name: "dashboard-overview-3",
-          component: () => import("../pages/DashboardOverview3.vue"),
-        },
-        {
-          path: "/dashboard-overview-4",
-          name: "dashboard-overview-4",
-          component: () => import("../pages/DashboardOverview4.vue"),
-        },
-        {
-          path: "/dashboard-overview-5",
-          name: "dashboard-overview-5",
-          component: () => import("../pages/DashboardOverview5.vue"),
-        },
-        {
-          path: "/dashboard-overview-6",
-          name: "dashboard-overview-6",
-          component: () => import("../pages/DashboardOverview6.vue"),
-        },
-        {
-          path: "/dashboard-overview-7",
-          name: "dashboard-overview-7",
-          component: () => import("../pages/DashboardOverview7.vue"),
-        },
-        {
-          path: "/dashboard-overview-8",
-          name: "dashboard-overview-8",
-          component: () => import("../pages/DashboardOverview8.vue"),
-        },
+        },    
         {
           path: "/users",
           name: "users",
           component: () => import("../pages/Users.vue"),
         },
-        {
-          path: "/departments",
-          name: "departments",
-          component: () => import("../pages/Departments.vue"),
-        },
-        {
-          path: "/add-user",
-          name: "add-user",
-          component: () => import("../pages/AddUser.vue"),
-        },
-        {
-          path: "/profile-overview",
-          name: "profile-overview",
-          component: () => import("../pages/ProfileOverview.vue"),
-          meta: { breadcrumb: 'Profile' },
-        },
-        {
-          path: "/profile-overview?page=events",
-          name: "profile-overview-events",
-          component: () => import("../pages/ProfileOverview.vue"),
-        },
-        {
-          path: "/profile-overview?page=achievements",
-          name: "profile-overview-achievements",
-          component: () => import("../pages/ProfileOverview.vue"),
-        },
-        {
-          path: "/profile-overview?page=contacts",
-          name: "profile-overview-contacts",
-          component: () => import("../pages/ProfileOverview.vue"),
-        },
-        {
-          path: "/profile-overview?page=default",
-          name: "profile-overview-default",
-          component: () => import("../pages/ProfileOverview.vue"),
-        },
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
         {
           path: "/settings?page=email-settings",
           name: "settings-email-settings",
@@ -351,11 +300,7 @@ const router = createRouter({
           name: "dynamic",
           component: () => import("../pages/Dynamic.vue"),
         },
-        {
-          path: "/interactive",
-          name: "interactive",
-          component: () => import("../pages/Interactive.vue"),
-        },
+     
         {
           path: "/regular-table",
           name: "regular-table",

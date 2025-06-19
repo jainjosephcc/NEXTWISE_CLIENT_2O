@@ -1,7 +1,8 @@
 <script setup lang="ts">
 import { type HTMLAttributes, useSlots, provide } from "vue";
 
-export type ProvideBeradcrumb = {t?: boolean;
+export type ProvideBeradcrumb = {
+  light?: boolean;
 };
 
 export interface BreadcrumbProps extends /* @vue-ignore */ HTMLAttributes {

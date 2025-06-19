@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import users from "@/fakers/users";
-import departments from "@/fakers/departments";
-import products from "@/fakers/products";
+
 import { Menu } from "@/components/Base/Headless";
 import Lucide from "@/components/Base/Lucide";
 import { FormInput } from "@/components/Base/Form";

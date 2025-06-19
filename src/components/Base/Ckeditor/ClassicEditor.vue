@@ -2,7 +2,7 @@
 import "@/assets/css/vendors/ckeditor.css";
 import ClassicEditor from "@ckeditor/ckeditor5-build-classic";
 import { ref, onMounted, inject } from "vue";
-import { type CkeditorElement, inim "./ckeditor";
+import { type CkeditorElement, init } from "./ckeditor";
 
 export type ProvideClassicEditor = (el: CkeditorElement) => void;
 

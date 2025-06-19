@@ -2,7 +2,7 @@
 import "@/assets/css/vendors/ckeditor.css";
 import InlineEditor from "@ckeditor/ckeditor5-build-inline";
 import { ref, onMounted, inject } from "vue";
-import { type CkeditorElement, inim "./ckeditor";
+import { type CkeditorElement, init } from "./ckeditor";
 
 export type ProvideInlineEditor = (el: CkeditorElement) => void;
 
