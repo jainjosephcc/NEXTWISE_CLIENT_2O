@@ -149,11 +149,11 @@ const fetchAccounts = async () => {
                         <router-link to="/live-account-info">
                         <a
                           href=""
-                          class="flex items-center gap-x-1.5 border rounded-full px-3 py-0.5 border-slate-300/70 hover:bg-slate-50" @click="props.setQuickSearch(false)"
+                          class="flex items-center text-black gap-x-1.5 border rounded-full px-3 py-0.5 border-slate-300/70 hover:bg-slate-50" @click="props.setQuickSearch(false)"
                         >
                           <Lucide
                             icon="CircleUserRound"
-                            class="w-4 h-4 stroke-[1.3]"
+                            class="w-4 h-4 stroke-[1.3] text-black"
                           />
                           MT5 Accounts
                         </a>
@@ -161,11 +161,11 @@ const fetchAccounts = async () => {
                     <router-link to="/transactions?page=deposits">
                         <a
                           href=""
-                          class="flex items-center gap-x-1.5 border rounded-full px-3 py-0.5 border-slate-300/70 hover:bg-slate-50"  @click="props.setQuickSearch(false)"
+                          class="flex items-center gap-x-1.5 text-black border rounded-full px-3 py-0.5 border-slate-300/70 hover:bg-slate-50"  @click="props.setQuickSearch(false)"
                         >
                           <Lucide
                             icon="ArrowLeftRight"
-                            class="w-4 h-4 stroke-[1.3]"
+                            class="w-4 h-4 stroke-[1.3] text-black"
                           />
                           Transactions
                         </a>
@@ -227,7 +227,7 @@ const fetchAccounts = async () => {
                           See All
                         </a>
                       </div>
-                      <div class="flex flex-col gap-1 mt-3.5">
+                      <div class="flex flex-col gap-1 mt-3.5 text-black" >
                         <template
                           v-for="account in accountList"
                           :key="account.mt_id"

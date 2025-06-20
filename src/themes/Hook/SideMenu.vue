@@ -501,7 +501,7 @@ const handleLogout = async () => {
               </router-link>
             </li>
 
-            <!-- Technical Analysis -->
+            <!-- Technical Analysis
             <li>
               <router-link
                   to="/technical-analysis"
@@ -519,7 +519,7 @@ const handleLogout = async () => {
       TECHNICAL ANALYSIS
     </span>
               </router-link>
-            </li>
+            </li> -->
 
 
             <!-- Market Data -->

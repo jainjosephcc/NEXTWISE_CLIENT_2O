@@ -11,11 +11,11 @@ import {
 } from "@/components/Base/Form";
 import Alert from "@/components/Base/Alert";
 import Tippy from "@/components/Base/Tippy";
-import users from "@/fakers/users";
-import countries from "@/fakers/countries";
-import languages from "@/fakers/languages";
-import timezones from "@/fakers/timezones";
-import recentDevices from "@/fakers/recent-devices";
+// import users from "@/fakers/users";
+// import countries from "@/fakers/countries";
+// import languages from "@/fakers/languages";
+// import timezones from "@/fakers/timezones";
+// import recentDevices from "@/fakers/recent-devices";
 import Button from "@/components/Base/Button";
 import Litepicker from "@/components/Base/Litepicker";
 import Table from "@/components/Base/Table";

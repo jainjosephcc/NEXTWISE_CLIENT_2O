@@ -195,7 +195,7 @@ function closeEditError() { editErrorModal.value = false; }
 
   <!-- Add Bank Dialog -->
   <Dialog :open="showAddDialog" @close="closeAddDialog">
-    <Dialog.Panel class="bg-white p-6 rounded-lg shadow-lg w-full max-w-md mx-auto">
+    <Dialog.Panel class="bg-white p-6 rounded-lg shadow-lg w-full max-w-md mx-auto max-h-[80vh] overflow-y-auto">
       <Dialog.Title class="text-lg font-semibold mb-4">Add Bank Details</Dialog.Title>
       <div class="space-y-4">
         <div>
@@ -241,7 +241,7 @@ function closeEditError() { editErrorModal.value = false; }
 
   <!-- Edit Bank Dialog (unchanged) -->
   <Dialog :open="showEditDialog" @close="closeEditDialog">
-    <Dialog.Panel class="bg-white p-6 rounded-lg shadow-lg w-full max-w-md mx-auto">
+    <Dialog.Panel class="bg-white p-6 rounded-lg shadow-lg w-full max-w-md mx-auto max-h-[80vh] overflow-y-auto">
       <Dialog.Title class="text-lg font-semibold mb-4">Edit Bank Details</Dialog.Title>
       <div class="space-y-4">
         <FormLabel for="holder-edit">Holder Name</FormLabel>

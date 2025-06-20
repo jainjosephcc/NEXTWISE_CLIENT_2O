@@ -130,7 +130,7 @@ loadOnboardingData();
             <div
               class=" w-full px-3 py-2 border rounded-md shadow-sm border-slate-300/60 first:rounded-b-none first:md:rounded-bl-md first:md:rounded-r-none [&:not(:first-child):not(:last-child)]:-mt-px [&:not(:first-child):not(:last-child)]:md:mt-0 [&:not(:first-child):not(:last-child)]:md:-ml-px [&:not(:first-child):not(:last-child)]:rounded-none last:rounded-t-none last:md:rounded-l-none last:md:rounded-tr-md last:-mt-px last:md:mt-0 last:md:-ml-px focus:z-10">
               <FormCheck>
-                <FormCheck.Input id="checkbox-switch-1" type="radio" value="male" v-model="gender" disabled />
+                <FormCheck.Input id="checkbox-switch-1" type="radio" value="male" v-model="gender"  />
                 <FormCheck.Label htmlFor="checkbox-switch-1">
                   {{ $t('profileinfo.male') }}
                 </FormCheck.Label>
@@ -139,7 +139,7 @@ loadOnboardingData();
             <div
               class="w-full px-3 py-2 border rounded-md shadow-sm border-slate-300/60 first:rounded-b-none first:md:rounded-bl-md first:md:rounded-r-none [&:not(:first-child):not(:last-child)]:-mt-px [&:not(:first-child):not(:last-child)]:md:mt-0 [&:not(:first-child):not(:last-child)]:md:-ml-px [&:not(:first-child):not(:last-child)]:rounded-none last:rounded-t-none last:md:rounded-l-none last:md:rounded-tr-md last:-mt-px last:md:mt-0 last:md:-ml-px focus:z-10">
               <FormCheck>
-                <FormCheck.Input id="checkbox-switch-2" type="radio" value="female" v-model="gender" disabled />
+                <FormCheck.Input id="checkbox-switch-2" type="radio" value="female" v-model="gender"  />
                 <FormCheck.Label htmlFor="checkbox-switch-2">
                   {{ $t('profileinfo.female') }}
                 </FormCheck.Label>
@@ -148,7 +148,7 @@ loadOnboardingData();
             <div
               class="w-full px-3 py-2 border rounded-md shadow-sm border-slate-300/60 first:rounded-b-none first:md:rounded-bl-md first:md:rounded-r-none [&:not(:first-child):not(:last-child)]:-mt-px [&:not(:first-child):not(:last-child)]:md:mt-0 [&:not(:first-child):not(:last-child)]:md:-ml-px [&:not(:first-child):not(:last-child)]:rounded-none last:rounded-t-none last:md:rounded-l-none last:md:rounded-tr-md last:-mt-px last:md:mt-0 last:md:-ml-px focus:z-10">
               <FormCheck>
-                <FormCheck.Input id="checkbox-switch-3" type="radio" value="preferNotToSay" v-model="gender" disabled />
+                <FormCheck.Input id="checkbox-switch-3" type="radio" value="preferNotToSay" v-model="gender" />
                 <FormCheck.Label htmlFor="checkbox-switch-3">
                   {{ $t('profileinfo.preferNottoSay') }}
                 </FormCheck.Label>

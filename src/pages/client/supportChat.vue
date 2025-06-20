@@ -239,7 +239,7 @@ function handleRefresh() {
               <div class="flex flex-col gap-3.5 py-5 px-3">
                 <template v-for="message in ticketDetails.ticket_messages" :key="message.message_id">
                   <div :class="[
-  'max-w-[85%] sm:max-w-none relative group flex items-end gap-3',
+  'max-w-[85%] sm:max-w-none text-black relative group flex items-end gap-3',
   message.staff_id === null ? 'ml-auto flex-row-reverse' : 'mr-auto'
 ]">
   <div
@@ -282,7 +282,7 @@ function handleRefresh() {
                 placeholder="Type a message..." />
               <div class="absolute inset-y-0 right-0 flex items-center justify-center w-[3.8rem]">
                 <a @click="handleSubmit"
-                  class="flex items-center justify-center border-transparent rounded-full cursor-pointer w-9 h-9 box bg-gradient-to-b from-theme-1/90 to-theme-2/90">
+                  class="flex items-center justify-center border-transparent rounded-full cursor-pointer w-9 h-9 box bg-gradient-to-b from-theme-1/90 to-theme-2/90 ">
                   <Lucide icon="Send" class="stroke-[1.3] w-4 h-4 -ml-0.5 text-white/70" />
                 </a>
               </div>

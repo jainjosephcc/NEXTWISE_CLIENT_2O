@@ -105,11 +105,11 @@ function handleRefresh() {
       <div class="space-y-4">
         <!-- Select Category -->
         <div>
-          <label for="category" class="block text-sm font-medium text-gray-700">
+          <label for="category" class="block text-sm font-medium text-white">
             Select Category
           </label>
           <select id="category" v-model="selectedCategory"
-            class="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
+            class="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 text-black"
             :disabled="isLoading">
             <option value="" disabled>Select a category</option>
             <option v-for="category in categories" :key="category.id" :value="category.id">
@@ -121,11 +121,11 @@ function handleRefresh() {
 
         <!-- Type Message -->
         <div>
-          <label for="message" class="block text-sm font-medium text-gray-700">
+          <label for="message" class="block text-sm font-medium text-white">
             Type Message
           </label>
           <textarea id="message" v-model="message" rows="4"
-            class="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
+            class="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 text-black"
             placeholder="Write your message here..."></textarea>
         </div>
       </div>
